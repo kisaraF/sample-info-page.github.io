@@ -11,7 +11,7 @@ body{
 }
 
 .buttons{
-   margin-top: 2em;
+   margin: 2em 0;
    text-align: center;
 }
 
@@ -45,5 +45,5 @@ a{
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 5em;
+   margin-top: 3em;
 }
