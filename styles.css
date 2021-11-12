@@ -1,0 +1,49 @@
+html,body{
+   margin: 0;
+}
+
+body{
+   background-image: url(BG.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 40%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons{
+   margin-top: 2em;
+   text-align: center;
+}
+
+a{
+   text-decoration: none;
+   color: inherit;
+}
+
+#sub{
+   padding: 0.7em 0.9em;
+   border: 0;
+   background-color: #0771D0;
+   color: #fff;
+   border-radius: 10px;
+   font-size: 1em;
+}
+
+@media (max-width:425px) {
+   .buttons{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+   }
+
+   #sub{
+      width: 60%;
+      margin: 1em auto;
+   }
+}
+
+.vid{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5em;
+}
